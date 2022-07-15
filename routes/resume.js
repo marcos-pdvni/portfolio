@@ -8,7 +8,7 @@ router.get("/resume", (req, res) => {
   const file = path.join(
     __dirname,
     "../file",
-    "Currículo MVPT português.docx (2).pdf"
+    "Currículo MVPT português.docx (3).pdf"
   );
 
   fs.readFile(file, (err, data) => {
